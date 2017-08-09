@@ -1,0 +1,6 @@
+.deploy_git
+node_modules
+public
+.npmignore
+db.json
+themes/landscape
