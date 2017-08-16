@@ -6,12 +6,18 @@
         <title><%= config.title %></title>
 
         <!-- Shoelace (via cdn) -->
-        <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta10/shoelace.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta10/shoelace.css" crossorigin="anonymous">
+        <%- css('css/style.css') %>
 
     </head>
     <body>
-        <div class='container'>
-        <%- body %>
+        <div id="wrapper">
+            <header>
+                <h1><a href="/"><%= config.title %></a></h1>
+                <p><%= config.subtitle %></p>
+            </header>
+            <%- body %>
         </div>
+        <%- js('js/script') %>
     </body>
 </html>

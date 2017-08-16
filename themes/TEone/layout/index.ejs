@@ -1,13 +1,11 @@
-<h1><%= config.author %></h1>
-<p><%= config.subtitle %></p>
-
- <ul>
- <% page.posts.each(function(post){ %>
-     <li>
-      <h3>
-                <a href="<%- url_for(post.path) %>">
-           <%= post.title %>
-          </a>
+<h2>New post!</h2>
+<ul>
+<% page.posts.each(function(post){ %>
+    <li>
+        <h3>
+            <a href="<%- url_for(post.path) %>">
+            <%= post.title %>
+            </a>
             </h3>
             <div class='text-muted'>
                 <%= date(post.date, config.date_format) %> 
@@ -21,3 +19,7 @@
      </li>
    <% }) %>
  </ul>
+
+<h2>New on Medium</h2>
+<ul id="medium"></ul>
+
