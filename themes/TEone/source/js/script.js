@@ -1,7 +1,5 @@
-
-
 const placefeed = (data)  => {
-  let medium = document.getElementById('medium');
+  const medium = document.getElementById('medium');
 
   data.forEach(function(i) {
     let li = document.createElement('li');      
