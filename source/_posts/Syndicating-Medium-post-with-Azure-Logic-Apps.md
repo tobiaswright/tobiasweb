@@ -2,6 +2,7 @@
 title: Syndicating Medium post with Azure Logic Apps
 date: 2017-08-17 12:57:34
 tags: Azure, Logic Apps, RSS, Azure Functions
+description: Can't we just make RSS easy?
 ---
 
 In full transparency, I want more out of [Logic Apps](https://azure.microsoft.com/en-us/services/logic-apps/) (which is the same as [Microsoft Flow](https://us.flow.microsoft.com/en-us/), but Flow is more UI friendly - also at first blush it seems to be an [IFTTT](https://ifttt.com/discover ) clone, but I'm not so convinced now), it was always hard for me to find a good use for them. That is until I found there's no easy way to display my Medium post on my website. There are ways I could have brought the posts in, most likey using just Functions, but I didn't want to do it the same way again, so why not try something new. Enter Logic Apps.

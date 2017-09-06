@@ -1,7 +1,8 @@
 ---
 title: Getting around CORS with Azure Functions
 date: 2017-05-25 11:30:10
-tags:
+tags: Azure Functions, CORS, How-to
+description: Cross domain scripting!
 ---
 
 [Cross Origin Resource (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) sharing is a security issue on most browsers that prevent making client side request via http from two different domain. Great for security, sucks for making ajax request.
