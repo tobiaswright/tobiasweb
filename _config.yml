@@ -70,3 +70,6 @@ theme: TEone
 deploy:
   type: git
   repo: https://github.com/tobiaswright/tobiaswright.github.io.git
+
+marked:
+  gfm: true

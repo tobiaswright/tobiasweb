@@ -22,3 +22,7 @@ header h1 a, header h1 a:hover {
     color: #000;
     text-decoration: none
 }
+
+h3 {
+    margin: 60px 0 20px
+}
