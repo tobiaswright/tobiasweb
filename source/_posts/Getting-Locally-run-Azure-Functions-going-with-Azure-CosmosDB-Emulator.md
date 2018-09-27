@@ -50,7 +50,7 @@ In your local.settings.json add this line to the Values object:
 
 To connect things in Azure you need the endpoing and the account key. In this instance we know that the emulator, according to the documention, once running is always this
 
-<script src="https://gist.github.com/tobiaswright/26c247c84a483c8fd66e16bfbf7d6c87.js?file=emulationKey"></script>
+<script src="https://gist.github.com/tobiaswright/26c247c84a483c8fd66e16bfbf7d6c87.js?file=emulatorKey"></script>
 
 You’ll also notice that the key is crmdb, the same as in the function.json
 
