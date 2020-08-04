@@ -3,11 +3,17 @@
     <head>
         <meta charset="utf-8">
         <!-- Use <%= page.title %> for dynamic titles -->
-        <title><%= config.title %></title>
+        
+        <% if(is_post()) { %>
+           <title> <%= titlecase( config.title )%> - <%= titlecase( config.subtitle ) %> - <%= page.title %></title>
+        <% } else { %>
+            <title> <%= titlecase( config.title )%> - <%= titlecase( config.subtitle ) %> </title>
+        <% } %>
 
         <!-- Shoelace (via cdn) -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta10/shoelace.css" crossorigin="anonymous">
         <%- css('css/style.css') %>
+        <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap" rel="stylesheet">
 
     </head>
     <body>

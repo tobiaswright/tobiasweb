@@ -8,10 +8,14 @@ header {
     margin-bottom: 30px
 }
 
-header h1, header p {
-    text-align: center;
-    display: inline;
+header p {
     font-size: 18px;
+}
+
+header h1 {
+    font-family: 'Corben', serif;
+    font-size: 28px;
+    margin-bottom: 0
 }
 
 header h1 {
